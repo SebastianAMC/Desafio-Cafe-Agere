@@ -1,0 +1,57 @@
+.header__logo{
+    width: 2em;
+}
+
+.header__container{
+    margin: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    width: 100%;
+    align-self: center;
+}
+
+.header__a{
+    margin-right: 3em;
+    text-decoration: none;
+    color: #989797;
+
+    &:hover{
+        color: black;
+    }
+}
+
+.header__button{
+    font-family: 'pt mono', sans-serif;
+    height: 3em;
+    border-style: solid;
+    border-width: 1px;
+
+    &--white{
+        background-color: white;
+        color: #989797;
+        border-color: #989797;
+
+        &:hover{
+            color:black;
+            border-color: black;
+        }
+    }
+
+    &--green{
+        background-color:#4CA866;
+        color: white;
+        border-color: white;
+       
+        &:hover{
+            color:#989797;
+            background-color: #9DCFAB;
+        }
+    }
+
+    
+}
+

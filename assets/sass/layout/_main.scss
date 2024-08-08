@@ -1,0 +1,26 @@
+.main__div1{
+    display: flex;
+}
+
+.main__img{
+    width: 65%;
+}
+
+.main__titlediv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    width: 15%;
+    padding-bottom: 15%;
+}
+
+.main__title{
+    font-family: 'PT Mono', sans-serif;
+    font-weight: normal;
+    font-size: 70px;
+    margin-bottom: 0%;
+}
+
+.main__section{
+    height: 31.4vw;;
+}

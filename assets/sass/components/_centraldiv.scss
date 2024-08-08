@@ -1,0 +1,60 @@
+.main__centraldiv{
+    display: flex;
+    width: 70%;
+    position: relative;
+    bottom: 8.6vw;
+    left: 28.3vw;
+}
+
+.centraldiv__whitediv{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 7em;
+    background-color: white;
+    padding: 0vw 1vw 0vw;
+
+    h1{
+        margin-bottom: 0%;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    p{
+        margin-top: 0%;
+    }
+}
+
+.centraldiv__whitediv--margin{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 9em;
+    background-color: white;
+    padding: 0vw 3vw 0vw 0vw;
+
+    h1{
+        margin-bottom: 0%;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    p{
+        margin-top: 0%;
+    }
+}
+
+.centraldiv__arrowdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4572e;
+    color: white;
+    position: relative;
+    bottom: 1vw;
+    right: 11vw;
+    width: 10vw;
+}
+
+.centraldiv__yellowdiv{
+    background-color: #dabf38;
+    width: 10vw;
+}
